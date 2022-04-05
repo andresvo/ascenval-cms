@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ascensores",
+  "info": {
+    "singularName": "ascensor",
+    "pluralName": "ascensores",
+    "displayName": "Ascensor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "Operativo": {
+      "type": "boolean"
+    },
+    "Horario": {
+      "type": "string"
+    },
+    "Monumento": {
+      "type": "boolean"
+    },
+    "Unesco": {
+      "type": "boolean"
+    },
+    "Proyecto_recuperacion": {
+      "type": "enumeration",
+      "enum": [
+        "Terminado",
+        "Si",
+        "No"
+      ]
+    },
+    "Propiedad": {
+      "type": "string"
+    },
+    "Observaciones": {
+      "type": "string"
+    }
+  }
+}
