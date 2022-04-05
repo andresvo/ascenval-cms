@@ -4,7 +4,8 @@
   "info": {
     "singularName": "ascensor",
     "pluralName": "ascensores",
-    "displayName": "Ascensor"
+    "displayName": "Ascensor",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -38,6 +39,9 @@
       "type": "string"
     },
     "Observaciones": {
+      "type": "string"
+    },
+    "Descripcion_no_operativo": {
       "type": "string"
     }
   }
