@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "noticias",
+  "info": {
+    "singularName": "noticia",
+    "pluralName": "noticias",
+    "displayName": "Noticia"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Medio": {
+      "type": "string"
+    },
+    "Fecha": {
+      "type": "date"
+    },
+    "URL": {
+      "type": "string"
+    }
+  }
+}
