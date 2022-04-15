@@ -12,22 +12,22 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Nombre": {
+    "nombre": {
       "type": "string"
     },
-    "Operativo": {
+    "operativo": {
       "type": "boolean"
     },
-    "Horario": {
+    "horario": {
       "type": "string"
     },
-    "Monumento": {
+    "monumento": {
       "type": "boolean"
     },
-    "Unesco": {
+    "unesco": {
       "type": "boolean"
     },
-    "Proyecto_recuperacion": {
+    "proyecto_recuperacion": {
       "type": "enumeration",
       "enum": [
         "Terminado",
@@ -35,13 +35,13 @@
         "No"
       ]
     },
-    "Propiedad": {
+    "propiedad": {
       "type": "string"
     },
-    "Observaciones": {
+    "observaciones": {
       "type": "string"
     },
-    "Descripcion_no_operativo": {
+    "descripcion_no_operativo": {
       "type": "string"
     }
   }
