@@ -4,23 +4,24 @@
   "info": {
     "singularName": "noticia",
     "pluralName": "noticias",
-    "displayName": "Noticia"
+    "displayName": "Noticia",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Titulo": {
+    "titulo": {
       "type": "string"
     },
-    "Medio": {
+    "medio": {
       "type": "string"
     },
-    "Fecha": {
+    "fecha": {
       "type": "date"
     },
-    "URL": {
+    "url": {
       "type": "string"
     }
   }
