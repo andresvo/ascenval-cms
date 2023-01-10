@@ -35,14 +35,19 @@
         "No"
       ]
     },
-    "propiedad": {
-      "type": "string"
-    },
     "observaciones": {
       "type": "string"
     },
     "descripcion_no_operativo": {
       "type": "string"
+    },
+    "Propiedad": {
+      "type": "enumeration",
+      "enum": [
+        "muni",
+        "gore",
+        "privado"
+      ]
     }
   }
 }
