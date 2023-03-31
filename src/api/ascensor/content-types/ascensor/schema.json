@@ -24,9 +24,6 @@
     "monumento": {
       "type": "boolean"
     },
-    "unesco": {
-      "type": "boolean"
-    },
     "proyecto_recuperacion": {
       "type": "enumeration",
       "enum": [
@@ -48,6 +45,9 @@
         "gore",
         "privado"
       ]
+    },
+    "Historia": {
+      "type": "richtext"
     }
   }
 }
