@@ -38,7 +38,7 @@
     "descripcion_no_operativo": {
       "type": "string"
     },
-    "Propiedad": {
+    "propiedad": {
       "type": "enumeration",
       "enum": [
         "muni",
@@ -46,7 +46,7 @@
         "privado"
       ]
     },
-    "Historia": {
+    "historia": {
       "type": "richtext"
     }
   }
