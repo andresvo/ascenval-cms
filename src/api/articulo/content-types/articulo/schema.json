@@ -4,7 +4,8 @@
   "info": {
     "singularName": "articulo",
     "pluralName": "articulos",
-    "displayName": "Artículo"
+    "displayName": "Artículo",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,13 +13,20 @@
   "pluginOptions": {},
   "attributes": {
     "titulo": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "contenido": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "autor": {
-      "type": "string"
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true
     }
   }
 }
