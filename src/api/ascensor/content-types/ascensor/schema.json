@@ -52,6 +52,9 @@
     "slug": {
       "type": "uid",
       "targetField": "nombre"
+    },
+    "viajes_mensuales": {
+      "type": "integer"
     }
   }
 }
