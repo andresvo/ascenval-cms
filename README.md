@@ -8,6 +8,13 @@ tags:
   - javascript
 ---
 
+# Comando:
+
+railway run yarn develop
+
+Antes funcionaba con push a Github, si no, usar:
+railway up
+
 # Strapi example
 
 This example deploys self-hosted version of [Strapi](https://strapi.io/). Internally it uses a PostgreSQL database to store the data.
