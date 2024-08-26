@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fotos",
+  "info": {
+    "singularName": "foto",
+    "pluralName": "fotos",
+    "displayName": "Foto",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "autor": {
+      "type": "string"
+    },
+    "anno": {
+      "type": "integer"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "ascensor": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::ascensor.ascensor",
+      "inversedBy": "fotos"
+    },
+    "aprobada": {
+      "type": "boolean"
+    }
+  }
+}

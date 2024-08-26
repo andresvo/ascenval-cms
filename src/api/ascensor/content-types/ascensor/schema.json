@@ -55,6 +55,15 @@
     },
     "viajes_mensuales": {
       "type": "integer"
+    },
+    "viajes_mensuales_desc": {
+      "type": "string"
+    },
+    "fotos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::foto.foto",
+      "mappedBy": "ascensor"
     }
   }
 }

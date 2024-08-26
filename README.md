@@ -15,6 +15,10 @@ railway run yarn develop
 Antes funcionaba con push a Github, si no, usar:
 railway up
 
+# Descargar respaldo BD:
+
+pg_dump -h viaduct.proxy.rlwy.net -U postgres -p 35021 -d railway -f ascenval-cms.sql
+
 # Strapi example
 
 This example deploys self-hosted version of [Strapi](https://strapi.io/). Internally it uses a PostgreSQL database to store the data.
