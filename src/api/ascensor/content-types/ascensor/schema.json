@@ -64,6 +64,9 @@
       "relation": "oneToMany",
       "target": "api::foto.foto",
       "mappedBy": "ascensor"
+    },
+    "url_org": {
+      "type": "string"
     }
   }
 }
