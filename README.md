@@ -8,12 +8,13 @@ tags:
   - javascript
 ---
 
-# Comando:
+# Correr en local:
 
 railway run yarn develop
 
-Antes funcionaba con push a Github, si no, usar:
-railway up
+# Deploy:
+
+push a Github (como alternativa: railway up)
 
 # Descargar respaldo BD:
 
